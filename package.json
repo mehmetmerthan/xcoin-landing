@@ -3,9 +3,7 @@
   "description": "x coin landing page",
   "homepage": "https://mehmetmerthan.github.io/xcoin-landing",
   "author": {
-    "name": "x coin team",
-    "email": "",
-    "url": ""
+    "name": "x coin team"
   },
   "license": "MIT",
   "keywords": [
