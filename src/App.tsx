@@ -9,15 +9,21 @@ import { Newsletter } from "./components/Newsletter";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Team } from "./components/Team";
 import "./App.css";
-
+import { Why } from "./components/Why";
+import { Benefits } from "./components/Benefits";
+import { WhyWorks } from "./components/WhyWorks";
+import { BlockChain } from "./components/BlockChain";
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <About />
+      {/* <About /> */}
+      <Benefits />
+      <Why />
       <HowItWorks />
-      <Features />
+      <WhyWorks />
+      <BlockChain />
       <Team />
       <Newsletter />
       <FAQ />

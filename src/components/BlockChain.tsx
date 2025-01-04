@@ -1,6 +1,6 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { WalletIcon, ChartIcon, GiftIcon, MedalIcon } from "./Icons";
-import steps from "../assets/steps.png";
+import { Users, Fan, Blend } from "lucide-react";
+import chain from "../assets/chain.png";
 interface ServiceProps {
   title: string;
   description: string;
@@ -9,49 +9,41 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Opportunity Identification",
+    title: "Decentralized Decision-Making",
     description:
-      "Share examples of past acquisition opportunities, including ROI projections.",
-    icon: <MedalIcon />,
+      "Token holders are actively involved in decision-making through a secure voting system, ensuring their voices shape the acquisitions.",
+    icon: <Users size={40} />,
   },
   {
-    title: "Voting Mechanism",
+    title: "Efficient Transactions",
     description:
-      "Show the average participation rate in token-based voting (e.g., 70% of holders actively vote).",
-    icon: <WalletIcon />,
+      "Blockchain enables faster and lower-cost transfers of funds, compared to traditional financing methods.",
+    icon: <Fan size={40} />,
   },
   {
-    title: "Acquisition Results",
+    title: "Transparent Operations",
     description:
-      " Include statistics from previous acquisition successes, such as revenue increases post-acquisition.",
-    icon: <ChartIcon />,
-  },
-  {
-    title: "Profit Sharing",
-    description:
-      "Profits from operations are fairly distributed based on your investment amount.",
-    icon: <GiftIcon />,
+      "All financial and operational decisions are recorded on the blockchain, ensuring complete transparency and trust.",
+    icon: <Blend size={40} />,
   },
 ];
 
-export const HowItWorks = () => {
+export const BlockChain = () => {
   return (
-    <section className="container py-24 sm:py-32" id="howItWorks">
+    <section className="container py-24 sm:py-32" id="blockChain">
       <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              How It Works{" "}
+              How Blockchain{" "}
             </span>
-            Step-by-Step Guide
+            Enhances the Process
           </h2>
-
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Manage your investments quickly and effortlessly. With our
-            user-friendly interface, learn how the system works instantly and
-            start investing today!
+            By integrating blockchain technology, we provide a secure,
+            transparent, and efficient way to fund and manage company
+            acquisitions
           </p>
-
           <div className="flex flex-col gap-8">
             {serviceList.map(({ icon, title, description }: ServiceProps) => (
               <Card key={title}>
@@ -72,8 +64,8 @@ export const HowItWorks = () => {
         </div>
 
         <img
-          src={steps}
-          className="w-[300px] md:w-[500px] lg:w-[600px] object-contain rounded-lg"
+          src={chain}
+          className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
           alt="About services"
         />
       </div>

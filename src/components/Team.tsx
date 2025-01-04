@@ -8,7 +8,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Github, Linkedin, Twitter } from "lucide-react";
-
+import mmh from "../assets/mmh-circle-small.png";
+import erkam from "../assets/erkam-small.png";
 interface TeamProps {
   imageUrl: string;
   name: string;
@@ -24,7 +25,7 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "/src/assets/erkam-small.png",
+    imageUrl: erkam,
     name: "Erkam Kaya",
     position: "Financial Lead",
     socialNetworks: [
@@ -41,7 +42,7 @@ const teamList: TeamProps[] = [
       "With years of experience in the industry, our financial expert ensures maximum profitability through strategic company trading and fund management.",
   },
   {
-    imageUrl: "/src/assets/mmh-circle-small.png",
+    imageUrl: mmh,
     name: "Mehmet Mert Han",
     position: "Tech Lead",
     socialNetworks: [

@@ -49,7 +49,7 @@ export const Navbar = () => {
           <NavigationMenuItem className="font-bold flex">
             <a
               rel="noreferrer noopener"
-              href="/"
+              href="#"
               className="ml-2 font-bold text-xl flex"
             >
               <LogoIcon />X Coin
@@ -88,7 +88,7 @@ export const Navbar = () => {
                   ))}
                   <a
                     rel="noreferrer noopener"
-                    href=""
+                    href="#"
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
                       variant: "secondary",
@@ -121,7 +121,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
-              href=""
+              href="#"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >

@@ -16,9 +16,9 @@ export const Hero = () => {
           </h1>{" "}
           crypto-based{" "}
           <h2 className="inline">
-            company{" "}
+            {/* company{" "} */}
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Trading
+              Company Acquisition
             </span>{" "}
             platform
           </h2>
@@ -34,13 +34,13 @@ export const Hero = () => {
 
           <a
             rel="noreferrer noopener"
-            href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+            href="#"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
             })}`}
           >
-            Trading Coming Soon 
+            Trading Coming Soon
             {/* <GitHubLogoIcon className="ml-2 w-5 h-5" /> */}
           </a>
         </div>

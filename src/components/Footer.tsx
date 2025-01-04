@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="col-span-full xl:col-span-2">
           <a
             rel="noreferrer noopener"
-            href="/"
+            href="#"
             className="font-bold text-xl flex"
           >
             <LogoIcon />X Coin
@@ -56,7 +56,7 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href=""
+            href="#"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
             X Coin Team
