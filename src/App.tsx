@@ -13,6 +13,7 @@ import { Why } from "./components/Why";
 import { Benefits } from "./components/Benefits";
 import { WhyWorks } from "./components/WhyWorks";
 import { BlockChain } from "./components/BlockChain";
+import ComparisonTable from "./components/ComparisonTable";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
       <HowItWorks />
       <WhyWorks />
       <BlockChain />
+      <ComparisonTable/>
       <Team />
       <Newsletter />
       <FAQ />
